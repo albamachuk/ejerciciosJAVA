@@ -8,7 +8,7 @@ public class Actividad12 {
         Scanner sc = new Scanner(System.in);
         boolean haySuspenso = false;
 
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= 5; i++) { // for= hasta donde queremos llegar 
             System.out.print("Introduce la calificación del alumno " + i + ": ");
             double nota = sc.nextDouble();
             if (nota < 5) {
@@ -20,7 +20,6 @@ public class Actividad12 {
             System.out.println("Hay al menos un suspenso.");
         } else {
             System.out.println("No hay ningún suspenso.");
-        }
-        sc.close();
-    }
+ }
+  }
 }
